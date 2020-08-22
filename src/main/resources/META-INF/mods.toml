@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[29,)"
+issueTrackerURL="https://github.com/Markus1002/Expanded-Tags/issues"
+license="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+[[mods]]
+modId="expanded_tags"
+version="1.0.0"
+displayName="Expanded Tags"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/expanded-tags"
+logoFile="logo.png"
+credits="Markus1002"
+authors="Markus1002"
+description=''''''
+
+[[dependencies.expanded_tags]]
+    modId="forge"
+    mandatory=true
+    versionRange="[32.0.47,)"
+    ordering="NONE"
+    side="BOTH"
+	
+[[dependencies.expanded_tags]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1]"
+    ordering="NONE"
+    side="BOTH"

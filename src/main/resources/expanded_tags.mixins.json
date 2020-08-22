@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "com.markus1002.expandedtags.core.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "refmap": "expanded_tags.refmap.json",
+  "mixins": [
+  	"MixinAnimalEntity",
+  	"MixinBeeEntity",
+  	"MixinChickenEntity",
+	"MixinHoglinEntity",
+	"MixinPandaEntity",
+  	"MixinPigEntity",
+  	"MixinRabbitEntity",
+  	"MixinTurtleEntity",
+  	"MixinWolfEntity",
+  	"MixinBegGoal"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
