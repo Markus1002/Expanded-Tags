@@ -7,12 +7,14 @@
   "mixins": [
   	"MixinAnimalEntity",
   	"MixinBeeEntity",
+  	"MixinCatEntity",
   	"MixinChickenEntity",
+  	"MixinDolphinEntity",
 	"MixinHoglinEntity",
 	"MixinPandaEntity",
+	"MixinParrotEntity",
   	"MixinPigEntity",
   	"MixinRabbitEntity",
-  	"MixinTurtleEntity",
   	"MixinWolfEntity",
   	"MixinBegGoal"
   ],

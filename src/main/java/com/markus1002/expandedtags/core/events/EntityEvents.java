@@ -57,7 +57,7 @@ public class EntityEvents
 			}
 			else if (animal instanceof TurtleEntity)
 			{
-				// animal.targetSelector.addGoal(2, new TurtleEntity.PlayerTemptGoal(this, 1.1D, ETItemTags.TURTLE_BREEDING_ITEMS));
+				// animal.targetSelector.addGoal(2, new TurtleEntity.PlayerTemptGoal(animal, 1.1D, Ingredient.fromTag(ETItemTags.TURTLE_BREEDING_ITEMS)));
 			}
 		}
 	}
